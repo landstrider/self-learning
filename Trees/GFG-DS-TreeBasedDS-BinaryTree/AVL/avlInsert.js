@@ -9,14 +9,14 @@ class AVLTree {
 
   // A utility function to get the height of the tree
   height(N) {
-    if (N == null) return 0;
+    if (N == null) return -1;
     return N.nodeHeight;
   }
 
   // A utility function to right rotate subtree rooted with y 
   rightRotate(y) { 
-    x = y.leftNode; 
-    T2 = x.rightNode; 
+    var x = y.leftNode; 
+    var T2 = x.rightNode; 
     
     // Perform rotation 
     x.rightNode = y; 
@@ -32,8 +32,8 @@ class AVLTree {
     
   // A utility function to left rotate subtree rooted with x 
   leftRotate(x) { 
-    y = x.rightNode; 
-    T2 = y.leftNode; 
+	var y = x.rightNode; 
+	var T2 = y.leftNode; 
     
     // Perform rotation 
     y.leftNode = x; 
