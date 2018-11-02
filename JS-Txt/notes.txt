@@ -1,0 +1,57 @@
+String + Number
+String -  Number
+
+Remove Duplicates from array : Set()
+
+Transpiring let to var and maintaining its block scope: IIFE
+
+5<6<7, coercion of true
+7>6>5
+
+Fat arrow scope and why you should not use it
+
+arguments(keyword) binding to arrow function
+Alternative to it, spread operator
+
+ASI(Automatic Semicolon Insertion) after return line break 
+
+Not allow new properties to be added to an object. Object.freeze() and what else!
+Change Property but not allow to add new property
+Object.seal() and what else!
+Be able to modify only specific properties
+Object.defineProperty()
+
+console.log(Math.max()); -Infinity, Why?
+
+Operator Precedence:
+&&    —> left associative(LA)
+||   —> LA
+? :    —> RA
+=    —> RA
+,
+
+Statement and Expressions
+
+Gotcha: typeof null === “object” —> returns true
+
+Grammar#ExpressionSideEffect
+Chained assignment Gotcha
+var a=b=42 , this would not declare b directly:
+But in fact, var a = b = 3; is actually shorthand for:
+b = 3;
+var a = b;
+Depending on strict mode, that would either throw an error(ReferenceError: b is not defined) or create accidental global(see the Scope & Closures title of this series) 
+
+console.log(0.1 + 0.2 == 0.3); (see TypesAndGrammar#Values#SmallDecimalValues title of this series)
+
+Testing for Integers: (see TypesAndGrammar#Values#TestinfForIntegers title of this series)
+(x ^ 0) === x;
+which is also sufficiently robust to return false even if a non-numeric value such as a string or null is passed to the function.
+(typeof x === 'number') && (x % 1 === 0)
+(Math.round(x) === x;) Math.cel(), math.floor() too
+
+Ticker, setTimeout() (see  Asynchrony: Now & Later)
+
+console.log(false == '0')
+console.log(false === '0')
+Coercion of false???
