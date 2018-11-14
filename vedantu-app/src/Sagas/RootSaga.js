@@ -47,16 +47,16 @@ function fetchUserRepos() {
 function organizeData(reposJSONArr) {
   let reqRepoDataArr = (function getSubset(array, keys) {
     return array.map(o => Object.assign(...keys.map(k => {
-  	//if (~k.indexOf(".")) {
-  	// var regExpArr = k.match(/(?<=\.).*/);
-  	//return ({[k] : k[regExpArr[0]]})
-  	//}
-  	return {[k] : o[k]}
+	  if (~k.indexOf(".")) {
+		let propValArr = k.split(".");
+		let validPropName = propValArr[0] + "__" + propValArr[1];
+		if(o[propValArr[0]] === null) return {[validPropName] : null}
+		return ({[validPropName] : o[propValArr[0]][propValArr[1]]});
+  	  }
+	  return {[k] : o[k]}
     })))	
-  })(reposJSONArr, ['id', 'name', 'description', 'licence.name', 'updated_at', 'language', 'fork', 'archived', 'mirror_url', 'owner.followers_url', 'owner.following_url', 'stargazers_count']);
+  })(reposJSONArr, ['id', 'name', 'description', 'license.name', 'updated_at', 'language', 'fork', 'forks_count', 'archived', 'mirror_url', 'owner.followers_url', 'owner.following_url', 'stargazers_count']);
   
-  console.log(reqRepoDataArr);
-
   let repoNameArr = (function getRepoName(array) {
     return array.map(o => o.name)
   })(reqRepoDataArr);

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { AutoComplete, List, Select } from 'antd';
+import RepoList from './RepoList';
 
 
 class Complete extends React.Component {
@@ -8,9 +9,6 @@ class Complete extends React.Component {
 	this.state = {
   	  search: '',
   	}
-  }
-
-  componentDidMount() {
   }
 
   handleChange = (value, listRepos) => {
@@ -25,28 +23,25 @@ class Complete extends React.Component {
 
   render() {
     const { search } = this.state;
-	const reqRepoArr = this.props.userrepodetails.reqRepoDataArr;
-	//const { filterKey } = this.props.userrepodetails.reqRepoDataArr;
-	const repoNameArr = this.props.userrepodetails.repoNameArr;
+	//const reqRepoArr = this.props.userrepodetails.reqRepoDataArr;
+	//const repoNameArr = this.props.userrepodetails.repoNameArr;
 	
-	let filteredList = reqRepoArr.filter(
+	let filteredList = this.props.userrepodetails.reqRepoDataArr.filter(
 	  (list) => {
-		return list.toLowerCase().indexOf(
-		  search.toLowerCase() !== -1
-		)
+		return list.name.toLowerCase().indexOf(
+		  search.toLowerCase()) !== -1
 	  }
 	)
     return (
 	  <div>
 		<ul>
 		  {
-			filteredList.map(function(filterKey)  {
+			filteredList.map(function(repo)  {
 			  return (
-				<div
-			  	  key={filterKey}
-				>
-				  {repoNameArr}
-				</div>
+				  <RepoList 
+					repo={repo}
+					key={repo.id}
+				  /> 
 			  )
 			},this)
 		  }
