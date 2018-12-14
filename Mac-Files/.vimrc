@@ -67,7 +67,7 @@ set foldmethod=indent
 set foldnestmax=10
 set nofoldenable
 set foldlevel=2
-execute pathogen#infect()
+"execute pathogen#infect()
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_working_path_mode = 'ra'
 " The Silver Searcher
@@ -127,7 +127,7 @@ let g:ale_lint_on_enter = 0 " Less distracting when opening a new file
 let mapleader = ","
 
 "commad mode toggle map
-inoremap jj <ESC> 
+inoremap jk <ESC> 
 
 "split navigations
 nnoremap <C-J> <C-W><C-J>
@@ -146,9 +146,6 @@ nnoremap ,> :vertical resize -24<CR>
 
 nnoremap ,<< :vertical resize +12<CR>
 nnoremap ,>> :vertical resize -12<CR>
-"Spilt always
-set splitbelow
-set splitright
 
 " Enable folding
 set foldmethod=indent
@@ -157,18 +154,6 @@ set foldlevel=99
 "You Complete Me
 let g:ycm_autoclose_preview_window_after_completion=1
 map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
-
-"python with virtualenv support
-" This determines if you are running inside a virtualenv, switches to that specific virtualenv,
-" and then sets up your system path so that YouCompleteMe will find the appropriate site packages.
-py << EOF
-import os
-import sys
-if 'VIRTUAL_ENV' in os.environ:
-  project_base_dir = os.environ['VIRTUAL_ENV']
-  activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
-  execfile(activate_this, dict(__file__=activate_this))
-EOF
 
 function! MarkWindowSwap()
     let g:markedWinNum = winnr()

@@ -1,0 +1,41 @@
+{
+  "Data": {
+	"Accounts": [
+	  {
+		"Account": {
+		  "Identification": 0,
+		  "Name": "Bonita Jacobson",
+		  "SchemeName": "IBAN",
+		  "SecondaryIdentification": 0
+		},
+		"AccountId": 0,
+		"MaskedAccountId": "5bf6cf8df083db165e91307d",
+		"Currency": "IND",
+		"Nickname": "Moss",
+		"Servicer": {
+		  "Identification": 0,
+		  "SchemeName": "BICFI"
+		},
+		"AdditionalInformation": {
+		  "BranchIdentifier": "Harold",
+		  "OpenDate": "Mon May 14 2018 09:51:45 GMT+0530 (India Standard Time)",
+		  "MaturityDate": "Sun Jan 31 2016 19:25:02 GMT+0530 (India Standard Time)",
+		  "RelationshipCode": 0,
+		  "AccountStatusCode": 0,
+		  "AccountStatusCodeDetail": "Open",
+		  "OverdraftLimitAmount": 0
+		}
+	  }
+	]
+  },
+  "Links": {
+	"Next": "bonitamoss@nebulean.com",
+	"Previous": "bonitamoss@nebulean.com",
+	"Self": "bonitamoss@nebulean.com"
+  },
+  "Meta": {
+	"Count": 0,
+	"TotalPages": 0
+  }
+}
+

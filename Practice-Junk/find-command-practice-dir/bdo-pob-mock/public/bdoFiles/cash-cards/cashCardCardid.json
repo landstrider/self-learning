@@ -1,0 +1,29 @@
+{
+  "Data": {
+	"Account": {
+	  "Account": {
+		"Identification": "zero",
+		"Name": "Sasha Barber",
+		"SchemeName": "IBAN",
+		"SecondaryIdentification": "zero"
+	  }
+	},
+	"CardNumber": "5bf7dff8d16454c6085b438c",
+	"Currency": "PHP",
+	"Nickname": "Wall",
+	"Servicer": {
+	  "Identification": "zero",
+	  "SchemeName": "BICFI"
+	}
+  },
+  "Links": {
+	"Next": "<TypeError: this.email is not a function>",
+	"Previous": "<TypeError: this.email is not a function>",
+	"Self": "<TypeError: this.email is not a function>"
+  },
+  "Meta": {
+	"Count": 0,
+	"TotalPages": 0
+  }
+}
+

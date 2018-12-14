@@ -1,0 +1,32 @@
+{
+  "Data": {
+	"Account": [
+	  {
+		"Account": {
+		  "Identification": "zero",
+		  "Name": "Ruth Harris",
+		  "SchemeName": "IBAN",
+		  "SecondaryIdentification": "zero"
+		},
+		"CardId": "5bf7db69a1c0ef1c2ec562d3",
+		"MaskedCardId": 0,
+		"Currency": "IND",
+		"Nickname": "Contreras",
+		"Servicer": {
+		  "Identification": 0,
+		  "SchemeName": "BICFI"
+		}
+	  }
+	]
+  },
+  "Links": {
+	"Next": "ruthcontreras@suremax.com",
+	"Previous": "ruthcontreras@suremax.com",
+	"Self": "ruthcontreras@suremax.com"
+  },
+  "Meta": {
+	"Count": 0,
+	"TotalPages": 0
+  }
+}
+

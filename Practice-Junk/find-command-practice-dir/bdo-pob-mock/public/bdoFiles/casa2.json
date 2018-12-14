@@ -1,0 +1,41 @@
+{
+  "Data": {
+	"Accounts": [
+	  {
+		"Account": {
+		  "Identification": 0,
+		  "Name": "Downs Heath",
+		  "SchemeName": "IBAN",
+		  "SecondaryIdentification": 0
+		},
+		"AccountId": 0,
+		"MaskedAccountId": "5bf6cf8dfa3f1ccc20a44647",
+		"Currency": "IND",
+		"Nickname": "Small",
+		"Servicer": {
+		  "Identification": 0,
+		  "SchemeName": "BICFI"
+		},
+		"AdditionalInformation": {
+		  "BranchIdentifier": "Vale",
+		  "OpenDate": "Mon Nov 06 2017 03:06:45 GMT+0530 (India Standard Time)",
+		  "MaturityDate": "Fri Nov 13 2015 15:13:14 GMT+0530 (India Standard Time)",
+		  "RelationshipCode": 0,
+		  "AccountStatusCode": 0,
+		  "AccountStatusCodeDetail": "Open",
+		  "OverdraftLimitAmount": 0
+		}
+	  }
+	]
+  },
+  "Links": {
+	"Next": "downssmall@nebulean.com",
+	"Previous": "downssmall@nebulean.com",
+	"Self": "downssmall@nebulean.com"
+  },
+  "Meta": {
+	"Count": 0,
+	"TotalPages": 0
+  }
+}
+
