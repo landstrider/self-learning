@@ -1,0 +1,41 @@
+{
+  "name": "c-raft",
+  "version": "1.0.0",
+  "description": "Practice web development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/landstrider/c-raft.git"
+  },
+  "author": "Harshvardhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/landstrider/c-raft/issues"
+  },
+  "homepage": "https://gitlab.com/landstrider/c-raft#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "lighthouse": "^4.0.0-alpha.2-3.2.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-hot-loader": "^4.3.11",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1"
+  }
+}
