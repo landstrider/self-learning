@@ -177,3 +177,8 @@ endfunction
 nmap <silent> <leader>mw :call MarkWindowSwap()<CR>
 nmap <silent> <leader>pw :call DoWindowSwap()<CR>
 
+"open child block after matching braces
+inoremap <leader>o <esc>i<C-j><esc>ko
+
+"open a new at the top of file
+nnoremap <leader>to <esc>ggi<C-j><esc>ki
