@@ -8,8 +8,8 @@ function pr() {
         resolve(request.responseText);
       }
     }
-	request.open('GET', 'http://hvs:8081/bdo-unibank-sit.apigee.net/v1/accounts/$name/$params', true)
-    request.send(JSON.stringify({ "email": "hello@user.com", "response": { "name": "Tester" } }));
+	request.open('POST', 'http://192.168.1.110:9999/backend-0.0.1-SNAPSHOT/getHistoricalData', true)
+    request.send(JSON.stringify({ "fromDate": "12-12-2018", "toDate": "12-12-2018", "frequency":"Past two months" }));
   });
 }
 

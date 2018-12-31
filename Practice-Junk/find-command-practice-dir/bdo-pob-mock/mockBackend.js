@@ -6,6 +6,50 @@ app.use(cors());
 app.use(express.json());
 
 
+app.post('/gethistoricaldata', function (req, res, next) {
+
+  var options = {
+	root: __dirname + '/public/bdofiles',
+	dotfiles: 'deny',
+	headers: {
+	  'x-timestamp': Date.now(),
+	  'x-sent': true
+	}
+  };
+
+  var filename = req.params.name + ".json";
+  console.log("filename: " + filename);
+  res.sendfile(filename, options, function (err) {
+	if (err) {
+	  next(err);
+	} else {
+	  console.log('sent:', filename);
+	}
+  });
+});
+
+app.get('/getHistoricalData', function (req, res, next) {
+
+  var options = {
+	root: __dirname + '/public/bdofiles',
+	dotfiles: 'deny',
+	headers: {
+	  'x-timestamp': Date.now(),
+	  'x-sent': true
+	}
+  };
+
+  var filename = 'consolidationTable' + ".json";
+  console.log("filename: " + filename);
+  res.sendfile(filename, options, function (err) {
+	if (err) {
+	  next(err);
+	} else {
+	  console.log('sent:', filename);
+	}
+  });
+});
+
 app.get('/casa/:name', function (req, res, next) {
 
   var options = {
