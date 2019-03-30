@@ -6,7 +6,8 @@ app.use(cors());
 app.use(express.json());
 
 
-app.post('/gethistoricaldata', function (req, res, next) {
+//respond with json file, found in query Param
+app.get('/getUnProcessedGiftCards', function (req, res, next) {
 
   var options = {
 	root: __dirname + '/public/bdofiles',
@@ -17,7 +18,7 @@ app.post('/gethistoricaldata', function (req, res, next) {
 	}
   };
 
-  var filename = req.params.name + ".json";
+  var filename = 'consolidationTable' + ".json";
   console.log("filename: " + filename);
   res.sendfile(filename, options, function (err) {
 	if (err) {
@@ -28,7 +29,12 @@ app.post('/gethistoricaldata', function (req, res, next) {
   });
 });
 
-app.get('/getHistoricalData', function (req, res, next) {
+
+app.post('/storeGiftCardData', function (req, res) {
+  res.status(200).send('data stored successfully');
+});
+
+app.post('/getHistoricalData', function (req, res, next) {
 
   var options = {
 	root: __dirname + '/public/bdofiles',

@@ -1,196 +1,194 @@
-[
-  {
-	"giftCardNumber": "7234 3433 1334 598",
+{
+  "giftCards": [{
+	"giftCardNumber": "723434331334598",
 	"storeId": "1442",
 	"storeName": "Hy-vee",
 	"createDate": "12/18/2018"
   },
-
   {
-	"giftCardNumber": "7834 2432 1334 598",
+	"giftCardNumber": "783424321334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/18/2018"
   },
   {
-	"giftCardNumber": "7844 2432 1334 598",
+	"giftCardNumber": "784424321334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/18/2018"
   },
   {
-	"giftCardNumber": "7874 2432 1334 598",
+	"giftCardNumber": "787424321334598",
 	"storeId": "1343",
 	"storeName": "Hy-vee",
 	"createDate": "12/18/2018"
   },
   {
-	"giftCardNumber": "7834 2438 1334 598",
+	"giftCardNumber": "783424381334598",
 	"storeId": "1642",
 	"storeName": "Hy-vee",
 	"createDate": "12/18/2018"
   },
   {
-	"giftCardNumber": "7834 2432 1334 598",
+	"giftCardNumber": "783424321334598",
 	"storeId": "1542",
 	"storeName": "Hy-vee",
 	"createDate": "12/01/2018"
   },
   {
-	"giftCardNumber": "7834 3432 1334 598",
+	"giftCardNumber": "783434321334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/18/2018"
   },
   {
-	"giftCardNumber": "7834 2432 1334 598",
+	"giftCardNumber": "783424321334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/02/2018"
   },
   {
-	"giftCardNumber": "7834 2432 1334 598",
+	"giftCardNumber": "783424321334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/04/2018"
   },
   {
-	"giftCardNumber": "7834 2432 1334 598",
+	"giftCardNumber": "783424321334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/18/2018"
   },
   {
-	"giftCardNumber": "7834 2432 1334 598",
+	"giftCardNumber": "783424321334598",
 	"storeId": "1442",
 	"storeName": "Hy-vee",
 	"createDate": "12/18/2018"
   },
   {
-	"giftCardNumber": "7834 2432 1334 598",
+	"giftCardNumber": "783424321334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/04/2018"
   },
   {
-	"giftCardNumber": "7834 4432 1334 598",
+	"giftCardNumber": "783444321334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/18/2018"
   },
   {
-	"giftCardNumber": "7834 2433 1334 598",
+	"giftCardNumber": "783424331334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/05/2018"
   },
   {
-	"giftCardNumber": "7834 2432 1334 598",
+	"giftCardNumber": "783424321334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/18/2018"
   },
   {
-	"giftCardNumber": "7834 2432 1334 598",
+	"giftCardNumber": "783424321334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/18/2018"
   },
   {
-	"giftCardNumber": "7834 2433 1334 598",
+	"giftCardNumber": "783424331334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/05/2018"
   },
   {
-	"giftCardNumber": "7834 2432 1334 598",
+	"giftCardNumber": "783424321334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/06/2018"
   },
   {
-	"giftCardNumber": "7834 4432 1334 598",
+	"giftCardNumber": "783444321334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "11/08/2018"
   },
   {
-	"giftCardNumber": "7844 2432 1334 598",
+	"giftCardNumber": "784424321334598",
 	"storeId": "1442",
 	"storeName": "Hy-vee",
 	"createDate": "12/18/2018"
   },
   {
-	"giftCardNumber": "7834 2432 1334 598",
+	"giftCardNumber": "783424321334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "11/18/2018"
   },
   {
-	"giftCardNumber": "7834 4432 1334 598",
+	"giftCardNumber": "783444321334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/18/2018"
   },
   {
-	"giftCardNumber": "7834 2442 1334 598",
+	"giftCardNumber": "783424421334598",
 	"storeId": "1442",
 	"storeName": "Hy-vee",
 	"createDate": "01/10/2018"
   },
   {
-	"giftCardNumber": "7834 2434 1333 598",
+	"giftCardNumber": "783424341333598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "14/08/2018"
   },
   {
-	"giftCardNumber": "7834 2432 1333 598",
+	"giftCardNumber": "783424321333598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/10/2018"
   },
   {
-	"giftCardNumber": "7834 3434 1343 598",
+	"giftCardNumber": "783434341343598",
 	"storeId": "1442",
 	"storeName": "Hy-vee",
 	"createDate": "12/09/2018"
   },
   {
-	"giftCardNumber": "7834 2532 1334 598",
+	"giftCardNumber": "783425321334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/18/2018"
   },
   {
-	"giftCardNumber": "7834 2632 1334 598",
+	"giftCardNumber": "783426321334598",
 	"storeId": "1332",
 	"storeName": "Hy-vee",
 	"createDate": "12/18/2018"
   },
   {
-	"giftCardNumber": "7833 2432 1334 598",
+	"giftCardNumber": "783324321334598",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/18/2018"
   },
   {
-	"giftCardNumber": "7832 2432 1332 598",
+	"giftCardNumber": "783224321332598",
 	"storeId": "1442",
 	"storeName": "Hy-vee",
 	"createDate": "12/18/2018"
   },
   {
-	"giftCardNumber": "7832 2432 1334 298",
+	"giftCardNumber": "783224321334298",
 	"storeId": "1332",
 	"storeName": "Hy-vee",
 	"createDate": "12/12/2018"
   },
   {
-	"giftCardNumber": "4834 2432 1334 498",
+	"giftCardNumber": "483424321334498",
 	"storeId": "1342",
 	"storeName": "Hy-vee",
 	"createDate": "12/01/2018"
-  }
-
-]
+  }]
+}

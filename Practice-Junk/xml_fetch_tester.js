@@ -8,7 +8,7 @@ function pr() {
         resolve(request.responseText);
       }
     }
-	request.open('POST', 'http://192.168.1.110:9999/backend-0.0.1-SNAPSHOT/getHistoricalData', true)
+	request.open('POST', 'http://18.224.82.70:8080/backend-0.0.1-SNAPSHOT/getHistoricalData', true)
     request.send(JSON.stringify({ "fromDate": "12-12-2018", "toDate": "12-12-2018", "frequency":"Past two months" }));
   });
 }
